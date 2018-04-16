@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title> Copa do Mundo 2018! </title>
+		<link rel="stylesheet" type="text/css" href="CSSFormulario.css"/>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	</head>
+	<body>
+		
+			<header id="cabecalho"> 
+				<nav id="menu"> 
+					<ul>
+						 <a href="Copa2018.html"> <li> Inicio </li> </a>
+						 <a href="Estadios.html"> <li> Estádios </li> </a>
+						 <a href="Formulario.html"> <li> Formulário </li> </a>
+					</ul>			
+				</nav>
+				</header>
+				 <fieldset id="usuario">
+                    <legend> Identificação do Usuário </legend>
+                        <p>
+                            <label for="cNome">
+                             Nome:
+                            </label>
+                            <input type="text" name="tNome" id="cNome" placeholder="Nome completo"/>
+                        </p>
+                        <p>
+                            <label for="cEmail">
+                             E-mail:
+                            </label>
+                            <input type="email" name="tEmail" id="cEmail" placeholder="exemplo@mail.com.br"/>
+                        </p>
+                        <fieldset id="sexo">
+                            <legend> Sexo </legend>
+                            <input type="radio" name="tSexo" id="cMasc" value="Masculino"/>
+                                <label for="cMasc"> Masculino </label>
+                            <input type="radio" name="tSexo" id="cFem" value="Feminino"/>
+                                <label for="cFem"> Feminino </label>
+                        </fieldset>
+						<p>
+                        <label for="cData">
+                            Data de Nascimento:
+                        </label>
+                        <input type="date" id="cData" name="tData"/>
+                        </p>
+                </fieldset>
+				 <fieldset id="endereco">
+                    <legend> Endereço do Usuário </legend>
+                    <p>
+                      <label for="cLogradouro">
+                        Logradouro:
+                      </label>
+                      <input type="text" name="tLogradouro" 
+                        id="cLogradouro" placeholder="Av., Rua, etc..."/>
+                    </p>
+                    <p>
+                      <label for="cNumero">
+                        Número:
+                      </label>
+                      <input type="number" id="cNumero" name="tNumero"/>
+                    </p>
+                    <p>
+                      <label for="cEstado">
+                        Estado:
+                      </label>
+                      <select id="cEstado" name="tEstado">
+                        <option value="sp"> SP </option>
+                        <option value="rj"> RJ </option>
+                        <option value="mg"> MG </option>  
+                      </select>
+                    </p>
+                    <p>
+                      <label for="cCidade"> Cidade </label>
+                      <input type="text" name="tCidade" id="cCidade" list="cidades"/>
+                      <datalist id="cidades">
+                          <option value="franca"> 
+                            Franca
+                          </option>
+                          <option value="ibiraci">
+                            Ibiraci
+                          </option>
+                          <option value="ibitinga">
+                            Ibitinga
+                          </option>
+                      </datalist>
+                    </p>
+                </fieldset>
+				 <fieldset id="mensagem">
+                  <legend> Para qual time esta torcendo </legend>
+				  <p>
+                    <label for="cMensagem"> 
+                        Mensagem:
+                    </label>
+                    <textarea id="cMensagem" name="tMensagem" placeholder="Deixe sua mensagem ..." cols="50" rows="0"></textarea>
+                  </p>
+                </fieldset>
+				<input type="image" name="tEnviar" 
+					src="imagem/botao.png" style="width: 250px"/>
+		<footer id="rodape">
+		<p> 
+			Copyright 2018- Copa na Russia - by João Victor Ferreira Custódio e Vinicius Baldo<br/>
+			Facebook | Twitter
+		</p>
+	</footer>
+	</body>

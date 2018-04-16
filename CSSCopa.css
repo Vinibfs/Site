@@ -1,0 +1,158 @@
+@font-face {
+	font-family: 'FonteCopa';
+	src:url(fonte/dusha-v5-regular.ttf);
+}
+body {
+	background-image: url('Background/background.jpg');
+	background-attachment: fixed;
+	background-size:cover;
+	background-position:50% 50%;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#fff;
+	
+}
+.bandeiras {
+	float: left;
+}
+p {
+	font-size: 40px;
+	font-family: 'FonteCopa';
+}
+h1 {
+	text-align: center;
+	font-size: 55pt;
+	color: #610B0B;
+	font-family: 'FonteCopa';
+}
+
+
+#grupos {
+	list-style: none;
+	}
+#ga {
+		box-shadow: 1px 1px 1px 4px ;
+		width: 30%;
+		height: 100%;
+		
+	}
+#gpa {
+	text-align: center;
+	font-family: 'FonteCopa';
+
+	
+}
+#gb {
+		box-shadow: 1px 1px 1px 4px ;
+		width: 30%;
+		height: 35%;
+	}
+#gpb {
+	text-align: center;
+	font-family: 'FonteCopa'
+	
+}
+#gc {
+		box-shadow: 1px 1px 1px 4px ;
+		width: 30%;
+		height: 35%;
+	}
+#gpc {
+	text-align: center;
+	font-family: 'FonteCopa'
+	
+}
+#gd {
+		box-shadow: 1px 1px 1px 4px ;
+		width: 30%;
+		height: 35%;
+	}
+#gpd {
+	text-align: center;
+	font-family: 'FonteCopa'
+	
+}
+#ge {
+		box-shadow: 1px 1px 1px 4px ;
+		width: 30%;
+		height: 35%;
+	}
+#gpe {
+	text-align: center;
+	font-family: 'FonteCopa'
+	
+}
+#gf {
+		box-shadow: 1px 1px 1px 4px ;
+		width: 30%;
+		height: 35%;
+	}
+#gpf {
+	text-align: center;
+	font-family: 'FonteCopa'
+	
+}
+#gh {
+		box-shadow: 1px 1px 1px 4px ;
+		width: 30%;
+		height: 35%;
+	}
+#gph {
+	text-align: center;
+	font-family: 'FonteCopa'
+	
+}
+#gg {
+		box-shadow: 1px 1px 1px 4px ;
+		width: 30%;
+		height: 35%;
+	}
+#gpg {
+	text-align: center;
+	font-family: 'FonteCopa'
+	
+}
+#cabecalho {
+border-bottom: 1px #606060 solid;
+height: 150px;
+}
+#menu {
+    list-style: none; /* tira as marcações da lista */
+	text-transform: uppercase; /* texto em caixa alta */
+	float: right; /* flutua a direita */
+	padding: 0px; /* espaçamento interno */
+	margin: 0px; /* espaçamento externo */
+	top: -25px; /* aproximação com o topo */
+}
+#menu li{
+	display: inline-block; /* um ao lado do outro */
+	background-color: #000000; /* cor do fundo */
+	padding: 10px; /* espaçamento interno */
+	margin: 2px; /* espaçamento externo */
+	list-style: none;
+	bottom: 20px;
+	color: #FF0000;
+	font-family: 'FonteCopa';
+}
+#menu a{
+	color: #000; /* cor do texto do link */
+	text-decoration: none; /* tira o sublinhado do link */
+}
+#menu li:hover{
+	background-color: #606060; /* cor do fundo */
+	transition: background 1s;/* a mudança de background vai demorar 1s */
+	color: #FF0000;
+}
+article {
+	margin-bottom: 800px;
+}
+#lixo {
+	opacity: 0;
+}
+#rodape{
+	clear:both;
+	border-top: 1px solid #606060;
+}
+#rodape p {
+	color: #FFFFFF;
+	text-shadow: 2px 3px 2px #000000;
+}

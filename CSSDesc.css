@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'FonteCopa';
+	src:url(fonte/dusha-v5-regular.ttf);
+}
+body {
+	background-image: url('Background/background.jpg');
+	background-attachment: fixed;
+	background-size:cover;
+	background-position:50% 50%;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#fff;
+	
+}
+h1 {
+	font-family: 'FonteCopa' ;
+	color: #FF8C00;
+	font-size: 35pt;
+	
+
+}
+p {
+	font-family: 'FonteCopa';
+	font-size: 25pt;
+}
+article {
+	margin-bottom: 800px;
+}
+#est {
+	font-family: 'FonteCopa' ;
+	color: #FF8C00;
+	font-size: 55pt;
+	text-align: center;
+}

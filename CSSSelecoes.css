@@ -1,0 +1,278 @@
+@font-face {
+	font-family: 'FonteCopa';
+	src:url(fonte/dusha-v5-regular.ttf);
+}
+body {
+	background-image: url('Background/background.jpg');
+	background-attachment: fixed;
+	background-size:cover;
+	background-position:50% 50%;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#fff;
+	
+}
+
+#cabecalho {
+border-bottom: 1px #606060 solid;
+height: 150px;
+}
+#menu {
+list-style: none; /* tira as marcações da lista */
+	text-transform: uppercase; /* texto em caixa alta */
+	float: right; /* flutua a direita */
+	padding: 0px; /* espaçamento interno */
+	margin: 0px; /* espaçamento externo */
+	top: -25px; /* aproximação com o topo */
+}
+#menu li{
+	display: inline-block; /* um ao lado do outro */
+	background-color: #000000; /* cor do fundo */
+	padding: 10px; /* espaçamento interno */
+	margin: 2px; /* espaçamento externo */
+	list-style: none;
+	bottom: 20px;
+	color: #FF0000;
+	font-family: 'FonteCopa';
+	font-size: 30pt;
+}
+#menu a{
+	color: #000; /* cor do texto do link */
+	text-decoration: none; /* tira o sublinhado do link */
+}
+#menu li:hover{
+	background-color: #606060; /* cor do fundo */
+	transition: background 1s;/* a mudança de background vai demorar 1s */
+	color: #FF0000;
+}
+h1 {
+	text-align: center;
+	font-size: 55pt;
+	color: #088A08;
+	font-family: 'FonteCopa';
+}
+p {
+	font-family: 'FonteCopa';
+	font-size: 20pt;
+	color: #fff;
+	text-shadow:  1px 1px 1px #000000;
+	
+}
+#segt {
+	text-align: center;
+	font-size: 55pt;
+	color: #B40404;
+	font-family: 'FonteCopa';
+	
+	
+}
+#srss {
+	text-align: center;
+	font-size: 55pt;
+	color: #FF0000;
+	font-family: 'FonteCopa';
+	
+}
+#surg {
+	text-align: center;
+	font-size: 55pt;
+	color: #2E9AFE;
+	font-family: 'FonteCopa';
+	
+}
+#sesp {
+text-align: center;
+	font-size: 55pt;
+	color: #DF0101;
+	font-family: 'FonteCopa';
+}
+#sira {
+	text-align: center;
+	font-size: 55pt;
+	color: #FFFFFF;
+	font-family: 'FonteCopa';
+	
+}
+#smrc {
+	text-align: center;
+	font-size: 55pt;
+	color: #FF0000;
+	font-family: 'FonteCopa';
+
+}
+#sptg {
+	text-align: center;
+	font-size: 55pt;
+	color: #FF0000;
+	font-family: 'FonteCopa';
+	
+}
+#satl {
+		text-align: center;
+		font-size: 55pt;
+		color: #FFFF00;
+		font-family: 'FonteCopa';
+
+}
+#sdmc {
+	text-align: center;
+		font-size: 55pt;
+		color: #FE2E2E;
+		font-family: 'FonteCopa';
+
+}
+#sfrc  {
+text-align: center;
+font-size: 55pt;
+color: #0101DF;
+font-family: 'FonteCopa';
+	
+}
+#spru {
+	text-align: center;
+		font-size: 55pt;
+		color: #8A0808;
+		font-family: 'FonteCopa';
+}
+#sagt {
+	text-align: center;
+		font-size: 55pt;
+		color:#00BFFF;
+		font-family: 'FonteCopa';
+	
+}
+#scra {
+	text-align: center;
+		font-size: 55pt;
+		color:#B40431;
+		font-family: 'FonteCopa';
+}
+#slda {
+	text-align: center;
+		font-size: 55pt;
+		color:#0101DF;
+		font-family: 'FonteCopa';
+}
+#sngr{
+	text-align: center;
+		font-size: 55pt;
+		color:#0A2A0A;
+		font-family: 'FonteCopa';
+}
+#sbrs {
+	text-align: center;
+		font-size: 55pt;
+		color:#FFFF00;
+		font-family: 'FonteCopa';
+	
+}
+#scrc {
+	text-align: center;
+		font-size: 55pt;
+		color:#DF0101;
+		font-family: 'FonteCopa';
+}
+#srva {
+text-align: center;
+font-size: 55pt;
+color: #FF0040;
+font-family: 'FonteCopa';
+}
+#ssuc {
+text-align: center;
+font-size: 55pt;
+color: #FF0000;
+font-family: 'FonteCopa';
+	
+}
+#salm {
+text-align: center;
+font-size: 55pt;
+color: #000000;
+font-family: 'FonteCopa';
+}
+#scds {
+text-align: center;
+font-size: 55pt;
+color: #FA5858;
+font-family: 'FonteCopa';	
+}
+#smxc {
+text-align: center;
+font-size: 55pt;
+color: #0B610B;
+font-family: 'FonteCopa';	
+}
+#ssuc {
+text-align: center;
+font-size: 55pt;
+color: #F3F781;
+font-family: 'FonteCopa';	
+}
+#sblg {
+text-align: center;
+font-size: 55pt;
+color: #000000;
+font-family: 'FonteCopa';
+	
+}
+#sigt {
+text-align: center;
+font-size: 55pt;
+color: #FAFAFA;
+font-family: 'FonteCopa';	
+}
+#spnm {
+text-align: center;
+font-size: 55pt;
+color: #58ACFA;
+font-family: 'FonteCopa';	
+}
+#stns {
+text-align: center;
+font-size: 55pt;
+color: #FF0000;
+font-family: 'FonteCopa';	
+}
+#sclb {
+text-align: center;
+font-size: 55pt;
+color: #FFFF00;
+font-family: 'FonteCopa';		
+}
+#sjpo {
+text-align: center;
+font-size: 55pt;
+color: #0B0B3B;
+font-family: 'FonteCopa';
+}	
+#spln {
+text-align: center;
+font-size: 55pt;
+color: #FF0000;
+font-family: 'FonteCopa';	
+}
+#ssng {
+text-align: center;
+font-size: 55pt;
+color: #21610B;
+font-family: 'FonteCopa';		
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.container p {
+	width: 30%;
+	height: 30%;
+}
+.container img {
+	width: 30%;
+}
+.container iframe {
+	width: 30%;
+}
+#lixo {
+	opacity: 0;
+}
