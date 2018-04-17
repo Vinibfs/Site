@@ -19,10 +19,11 @@ p {
 	font-family: 'FonteCopa';
 }
 h1 {
-	text-align: center;
+	text-align: left;
 	font-size: 55pt;
-	color: #610B0B;
+	color: #ffffff;
 	font-family: 'FonteCopa';
+	margin-left: 100px;
 }
 
 
@@ -31,7 +32,7 @@ h1 {
 	}
 #ga {
 		box-shadow: 1px 1px 1px 4px ;
-		width: 30%;
+		width:30%;
 		height: 100%;
 		
 	}
@@ -120,8 +121,8 @@ height: 150px;
 	text-transform: uppercase; /* texto em caixa alta */
 	float: right; /* flutua a direita */
 	padding: 0px; /* espaçamento interno */
-	margin: 0px; /* espaçamento externo */
-	top: -25px; /* aproximação com o topo */
+	margin-right: 40%; /* espaçamento externo */
+	top: 50px; /* aproximação com o topo */
 }
 #menu li{
 	display: inline-block; /* um ao lado do outro */
@@ -155,4 +156,5 @@ article {
 #rodape p {
 	color: #FFFFFF;
 	text-shadow: 2px 3px 2px #000000;
+
 }

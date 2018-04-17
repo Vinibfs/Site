@@ -1,0 +1,102 @@
+@font-face {
+	font-family: 'FonteCopa';
+	src:url(fonte/dusha-v5-regular.ttf);
+}
+body {
+	background-image: url('Background/background.jpg');
+	background-attachment: fixed;
+	background-size:cover;
+	background-position:50% 50%;
+	font-family: 'FonteCopa';
+	color:#fff;
+}
+#tabela{
+	border: 1px solid #606060;
+	border-spacing: 0px;
+
+	
+	
+	width: 35%;
+	height: 40%;
+	
+	
+}
+#tabela td{
+	border: 1px solid #606060;
+	padding: 10px;
+	vertical-align: top;
+}
+/* coluna da esquerda */
+#tabela .ce{
+	color:#ffffff;
+	font-family: 'FonteCopa';
+	background-color: #606060;
+	vertical-align: top;
+	font-weight: bold;
+	text-align: right;
+}
+/* coluna da direita */
+
+/* legenda da tabela */
+#tabela caption{
+	color: #888;
+	font-size: 15px;
+	font-weight: bolder;
+}
+/* Mar/2013 */
+#tabela caption span{
+	display: block;
+	float: right;
+	color: #000;
+	font-size: 8pt;
+	margin-top: 10px;
+}
+#tabela .cd {
+	font-family: 'FonteCopa';
+}
+#tab {
+	display: flex;
+}
+cabecalho {
+border-bottom: 1px #606060 solid;
+height: 150px;
+}
+#menu {
+    list-style: none; /* tira as marcações da lista */
+	text-transform: uppercase; /* texto em caixa alta */
+	float: right; /* flutua a direita */
+	padding: 0px; /* espaçamento interno */
+	margin-right: 40%; /* espaçamento externo */
+	top: 50px; /* aproximação com o topo */
+}
+#menu li{
+	display: inline-block; /* um ao lado do outro */
+	background-color: #000000; /* cor do fundo */
+	padding: 10px; /* espaçamento interno */
+	margin: 2px; /* espaçamento externo */
+	list-style: none;
+	bottom: 20px;
+	color: #FF0000;
+	font-family: 'FonteCopa';
+}
+#menu a{
+	color: #000; /* cor do texto do link */
+	text-decoration: none; /* tira o sublinhado do link */
+}
+#menu li:hover{
+	background-color: #606060; /* cor do fundo */
+	transition: background 1s;/* a mudança de background vai demorar 1s */
+	color: #FF0000;
+}
+#lixo {
+	opacity: 0;
+}
+#rodape{
+	clear:both;
+	border-top: 1px solid #606060;
+}
+#rodape p {
+	color: #FFFFFF;
+	text-shadow: 2px 3px 2px #000000;
+
+}
